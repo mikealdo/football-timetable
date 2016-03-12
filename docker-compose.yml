@@ -1,4 +1,4 @@
-bootmicroservice:
+football-timetable:
   build: build/docker
   links:
     - zookeeper:zk

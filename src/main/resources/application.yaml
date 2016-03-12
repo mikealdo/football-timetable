@@ -1,0 +1,3 @@
+{graphite.host: 'http://graphite.4finance.net', metrics.path.app: football-timetable,
+  stubrunner.stubs.repository.root: 'http://nexus.4finance.net/content/repositories/Pipeline',
+  stubrunner.use-microservice-definitions: true}

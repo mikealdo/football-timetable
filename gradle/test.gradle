@@ -13,12 +13,6 @@ sourceSets {
         compileClasspath = sourceSets.main.output + sourceSets.test.output + configurations.smokeTestCompile
         runtimeClasspath = output + compileClasspath + configurations.smokeTestRuntime
     }
-    //Delete when idea 15 comes: https://youtrack.jetbrains.com/issue/IDEA-138076
-    if(System.properties.'idea.active') {
-        main {
-            resources.srcDir file('src/test-smoke/resources')
-        }
-    }
 }
 
 ext {
