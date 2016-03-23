@@ -64,6 +64,9 @@ project.gradle.projectsEvaluated {
 repositories {
     mavenLocal()
     jcenter()
+    maven {
+        url 'http://dl.bintray.com/mdavidek1/rango'
+    }
 }
 
 dependencies {
